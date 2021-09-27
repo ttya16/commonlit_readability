@@ -1,6 +1,14 @@
 # commonlit_readability
 Part of my works of 2 weeks' challenge for [CommonLit Readability Prize Competition](https://www.kaggle.com/c/commonlitreadabilityprize)
 
+Here I use [roberta-base](https://huggingface.co/roberta-base) but there are several options for the models.
+Ensembling models worked well for this competition.
+* [distilroberta-base](https://huggingface.co/distilroberta-base)
+* [robera-large](https://huggingface.co/roberta-large)
+* [albert-base-v2](https://huggingface.co/albert-base-v2) ※ Didn't get good score for this competition.  
+
+etc...
+
 ### Notebooks referenced
 * https://www.kaggle.com/maunish/clrp-pytorch-roberta-pretrain
 * https://www.kaggle.com/maunish/clrp-pytorch-roberta-finetune
